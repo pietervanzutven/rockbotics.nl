@@ -1,7 +1,7 @@
 body {
-    background-color: black; 
-    color: white; 
-    font-family: 'Courier New', Courier, monospace; 
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
@@ -19,10 +19,12 @@ hr {
 
 .left {
     float: left;
+    text-align: left;
 }
 
 .right {
     float: right;
+    text-align: right;
 }
 
 .container {
