@@ -4,54 +4,54 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ROCKBOTICS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body
-    style="background-color: black; color: white; font-family: 'Courier New', Courier, monospace; text-align: center;">
-    <div style="width: 100vh; max-width: 99vw; height: 100vh; max-height: 99vh; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: flex; flex-direction: column;">
-        <div style="width: 100%; height: 70px; display: flex; flex-direction: row">
-            <img src="images/logo.svg" style="width: 20px; float: left;">
-            <h1 style="width: 100%;">ROCKBOTICS</h1>
-            <img src="images/logo.svg" style="width: 20px; float: right;">
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo left" src="images/logo.svg">
+            <h1>ROCKBOTICS</h1>
+            <img class="logo right" src="images/logo.svg">
         </div>
-        <hr style="width: 100%;">
+        <hr>
         <h3>
             Freelance Robotics Software Developer
         </h3>
-        <div style="width: 100%; flex: 1; overflow: hidden; display: flex; flex-direction: column;">
-            <div style="flex: 1; overflow: hidden;">
-                <img src="images/manipulator.svg" style="width: calc(100%/3); height: 100%; float: left">
-                <img src="images/mobile.svg" style="width: calc(100%/3); height: 100%; float: left">
-                <img src="images/drone.svg" style="width: calc(100%/3); height: 100%; float: left">
+        <div class="content">
+            <div class="row">
+                <img class="tile" src="images/manipulator.svg">
+                <img class="tile" src="images/mobile.svg">
+                <img class="tile" src="images/drone.svg">
             </div>
             <div>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Manipulators</span>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Mobile Robots</span>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Drones</span>
+                <span class="caption">Manipulators</span>
+                <span class="caption">Mobile Robots</span>
+                <span class="caption">Drones</span>
             </div>
-            <div style="flex: 1; overflow: hidden;">
-                <img src="images/control.svg" style="width: calc(100%/3); height: 100%; float: left">
-                <img src="images/navigation.svg" style="width: calc(100%/3); height: 100%; float: left">
-                <img src="images/perception.svg" style="width: calc(100%/3); height: 100%; float: left">
+            <div class="row">
+                <img class="tile" src="images/control.svg">
+                <img class="tile" src="images/navigation.svg">
+                <img class="tile" src="images/perception.svg">
             </div>
             <div>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Motion Control</span>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Navigation</span>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Perception</span>
+                <span class="caption">Motion Control</span>
+                <span class="caption">Navigation</span>
+                <span class="caption">Perception</span>
             </div>
-            <div style="flex: 1; overflow: hidden;">
-                <img src="images/matlab.svg" style="width: calc(100%/3); height: 100%; float: left">
-                <img src="images/ros.svg" style="width: calc(100%/3); height: 100%; float: left">
-                <img src="images/embedded.svg" style="width: calc(100%/3); height: 100%; float: left">
+            <div class="row">
+                <img class="tile" src="images/matlab.svg">
+                <img class="tile" src="images/ros.svg">
+                <img class="tile" src="images/embedded.svg">
             </div>
-            <div style="margin: 0px;">
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Matlab</span>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">ROS</span>
-                <span style="width: calc(100%/3); float: left; padding-bottom: 20px">Embedded</span>
+            <div>
+                <span class="caption">Matlab</span>
+                <span class="caption">ROS</span>
+                <span class="caption">Embedded</span>
             </div>
         </div>
-        <hr style="width: 100%">
-        <div style="width: 100%; height: 70px">
+        <hr>
+        <div class="footer">
             <p>
                 info@rockbotics.nl<br>
                 KvK: 80749402 - BTW: NL003489535B45
