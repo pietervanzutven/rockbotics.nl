@@ -29,9 +29,9 @@ hr {
 
 .container {
     width: 100vh;
-    max-width: 99vw;
-    height: 100vh;
-    max-height: 99vh;
+    max-width: 99%;
+    height: 100%;
+    max-height: 99%;
     margin: auto;
     position: absolute;
     top: 0;
