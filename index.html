@@ -4,66 +4,223 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="FSy1O_t9uhdgAfIbypKPTMT3cAlATxUa9RzQU9drfso" />
-    
-    <title>ROCKBOTICS</title>
+
+    <title>rockbotics</title>
     <link rel="icon" href="images/favicon.svg">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+    <script type="text/javascript" src="scripts/index.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <img class="logo left" src="images/logo.svg" alt="Logo">
-            <h1>ROCKBOTICS</h1>
-            <img class="logo right" src="images/logo.svg" alt="Logo">
+    <div class="header darkblack">
+        <a href="#home" class="title">rockbotics</a>
+        <div class="menu">
+            <a href="#contact">contact</a>
         </div>
-        <hr>
-        <h3>
-            Freelance Robotics Software Developer
-        </h3>
-        <div class="content">
-            <div class="row">
-                <img class="tile" src="images/manipulator.svg" alt="Manipulators">
-                <img class="tile" src="images/mobile.svg" alt="Mobile Robots">
-                <img class="tile" src="images/drone.svg" alt="Drones">
-            </div>
-            <div>
-                <span class="caption">Manipulators</span>
-                <span class="caption">Mobile Robots</span>
-                <span class="caption">Drones</span>
-            </div>
-            <div class="row">
-                <img class="tile" src="images/control.svg" alt="Motion Control">
-                <img class="tile" src="images/navigation.svg" alt="Navigation">
-                <img class="tile" src="images/perception.svg" alt="Perception">
-            </div>
-            <div>
-                <span class="caption">Motion Control</span>
-                <span class="caption">Navigation</span>
-                <span class="caption">Perception</span>
-            </div>
-            <div class="row">
-                <img class="tile" src="images/matlab.svg" alt="Matlab">
-                <img class="tile" src="images/ros.svg" alt="ROS">
-                <img class="tile" src="images/embedded.svg" alt="Embedded">
-            </div>
-            <div>
-                <span class="caption">Matlab</span>
-                <span class="caption">ROS</span>
-                <span class="caption">Embedded</span>
+        <div class="menu">
+            <a href="#about">about</a>
+        </div>
+        <div class="menu">
+            <a href="#tools">tools</a>
+        </div>
+        <div class="menu">
+            <a href="#competences">competences</a>
+        </div>
+        <div class="menu">
+            <a href="#portfolio">portfolio</a>
+        </div>
+    </div>
+
+    <div id="home" class="page lightblack">
+        <div class="large tile darkblack">
+            <div class="caption">independent robotics software developer</div>
+            <img class="logo" src="images/logo.svg" alt="Logo">
+            <div class="content">rockbotics develops <b>advanced algorithms</b> and <b>smart software solutions</b> for robots and automatic machines. we support our customers with their product design in areas such as <b>motion control</b>, <b>perception</b> and <b>navigation</b>. rockbotics has experience with various hardware configurations, including <b>mobile robots</b>, <b>drones</b> and <b>manipulators</b>. we fit in every stage of the product design cycle, from <b>dynamic modeling</b> via <b>rapid prototyping</b> to <b>embedded implementation</b>.
+
+                contact us if your challenge fits our competence!
             </div>
         </div>
-        <hr>
-        <div class="footer">
-            <p class="left">
-                Pieter van Zutven<br>
-                info@rockbotics.nl
-            </p>
-            <p class="right">
-                80749402<br>
-                NL003489535B45
-            </p>
+    </div>
+
+    <div id="portfolio" class="page lightred">
+        <div class="row">
+            <div class="small tile darkred">
+                <div class="caption">manipulators</div>
+                <div class="pictogram">
+                    <img src="images/manipulator.svg" alt="Manipulators">
+                </div>
+                <div class="content">
+                    robotic arms
+                    humanoid robots
+                    forward and inverse kinematics
+                    trajectory generation
+                </div>
+            </div>
+            <div class="small tile darkred">
+                <div class="caption">mobile robots</div>
+                <div class="pictogram">
+                    <img src="images/mobile.svg" alt="Mobile Robots">
+                </div>
+                <div class="content">
+                    robotic lawnmowers
+                    localisation
+                    navigation
+                    obstacle avoidance
+                </div>
+            </div>
+            <div class="small tile darkred">
+                <div class="caption">drones</div>
+                <div class="pictogram">
+                    <img src="images/drone.svg" alt="Drones">
+                </div>
+                <div class="content">
+                    quadrocopters
+                    dynamical modeling
+                    non-linear control
+                    system identification
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="competences" class="page lightblue">
+        <div class="row">
+            <div class="small tile darkblue">
+                <div class="caption">motion control</div>
+                <div class="pictogram">
+                    <img src="images/control.svg" alt="Motion Control">
+                </div>
+                <div class="content">
+                    rapid prototyping
+                    hardware in the loop
+                    dspace
+                    simulink real-time
+                </div>
+            </div>
+            <div class="small tile darkblue">
+                <div class="caption">navigation</div>
+                <div class="pictogram">
+                    <img src="images/navigation.svg" alt="Navigation">
+                </div>
+                <div class="content">
+                    localisation
+                    mapping
+                    path planning
+                    path following
+                    filters
+                </div>
+            </div>
+            <div class="small tile darkblue">
+                <div class="caption">perception</div>
+                <div class="pictogram">
+                    <img src="images/perception.svg" alt="Perception">
+                </div>
+                <div class="content">
+                    gnss
+                    ultrasound
+                    stereo-vision
+                    ultrawideband
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tools" class="page lightgreen">
+        <div class="row">
+            <div class="small tile darkgreen">
+                <div class="caption">mathworks</div>
+                <div class="pictogram">
+                    <img src="images/matlab.svg" alt="Matlab">
+                </div>
+                <div class="content">
+                    matlab
+                    simulink
+                    stateflow
+                    data analysis
+                    optimization
+                </div>
+            </div>
+            <div class="small tile darkgreen">
+                <div class="caption">ros</div>
+                <div class="pictogram">
+                    <img src="images/ros.svg" alt="ROS">
+                </div>
+                <div class="content">
+                    distributed control
+                    gazebo
+                    python
+                    c++
+                </div>
+            </div>
+            <div class="small tile darkgreen">
+                <div class="caption">embedded</div>
+                <div class="pictogram">
+                    <img src="images/embedded.svg" alt="Embedded">
+                </div>
+                <div class="content">
+                    st microelectronics
+                    texas instruments
+                    ublox
+                    raspberry-pi
+                    arduino
+                    c
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="page lightpink">
+        <div class="row">
+            <img class="tile medium" src="images/foto.jpg" alt="Me">
+            <div class="tile medium darkpink">
+                <div class="caption">pieter van zutven</div>
+                <div class="content">bachelor mechanical engineering</div>
+                <div class="content">master dynamics and control</div>
+                <div class="content">phd robotics</div>
+                <div class="content">
+                    <a target="_blank" href="docs/Resume.pdf">resume</a>
+                    <a target="_blank" href="docs/Portfolio.pdf">portfolio</a>
+                    <a target="_blank" href="docs/Publications.pdf">publications</a>
+                    <a target="_blank" href="docs/Patents.pdf">patents</a>
+                </div>
+                <a target="_blank" href="https://github.com/pietervanzutven">
+                    <img class="social" src="images/github.svg" alt="Github">
+                </a>
+                <a target="_blank" href="https://linkedin.com/in/pietervanzutven">
+                    <img class="social" src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="page lightcyan">
+        <div class="row">
+            <div class="tile medium darkcyan left">
+                <div class="caption">details</div>
+                <div class="content">+31648784932</div>
+                <div class="content">info@rockbotics.nl</div>
+                <div class="caption">address</div>
+                <div class="content">aalstvoortsestraat 9</div>
+                <div class="content">5373 kp herpen</div>
+                <div class="content">netherlands</div>
+                <div class="caption">legal</div>
+                <div class="content">kvk: 80749402</div>
+                <div class="content">btw: NL003489535B45</div>
+            </div>
+            <div class="tile medium darkcyan left">
+                <div class="caption">info</div>
+                <label class="content" for="name">name:
+                    <input class="content" type="text" name="subject" id="sender" />
+                </label>
+                <label class="content" for="subject">subject:
+                    <input class="content" type="text" name="subject" id="subject" />
+                </label>
+                <label class="content" for="message">message:
+                    <textarea class="content" name="body" id="message"></textarea>
+                </label>
+                <input class="content" type="submit" name="submit" value="Send" id="button" />
+            </div>
         </div>
     </div>
 </body>

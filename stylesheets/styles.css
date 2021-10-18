@@ -1,0 +1,172 @@
+@font-face { font-family: timeburner; src: url(../fonts/timeburner.ttf); }
+@font-face { font-family: quicksand; src: url(../fonts/quicksand.ttf); }
+
+.lightblack {
+    background-color: #F0EDCC;
+}
+.darkblack {
+    background-color: #02343F;
+}
+
+.lightyellow {
+    background-color: #F9EBDE;
+}
+.darkyellow {
+    background-color: #815854;
+}
+
+.lightgreen {
+    background-color: #97BC62;
+}
+.darkgreen {
+    background-color: #2C5F2D;
+}
+
+.lightred {
+    background-color: #FFDFB9;
+}
+.darkred {
+    background-color: #A4193D;
+}
+
+.lightblue {
+    background-color: #DCE2F0;
+}
+.darkblue {
+    background-color: #50586C;
+}
+
+.lightpink {
+    background-color: #F9EBDE;
+}
+.darkpink {
+    background-color: #815854;
+}
+
+.lightcyan {
+    background-color: #ADEFD1;
+}
+.darkcyan {
+    background-color: #00203F;
+}
+
+body {
+    color: white;
+    font-family: timeburner;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 5vh;
+    font-weight: normal;
+    margin: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+.logo {
+    width: 7vw;
+    margin: 5vh;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 6vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: solid 1px white;
+    z-index: 2;
+}
+
+.title {
+    margin: 0.75vw 2vw;
+    float: left;
+    font-size: 4vw;
+}
+
+.menu {
+    margin: 2vw;
+    float: right;
+    font-size: 2vw;
+}
+
+.row {
+    position: relative;
+    top: 15vh;
+}
+
+.tile {
+    height: 70vh;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+}
+
+.small {
+    width: calc(82%/3);
+}
+
+.medium {
+    width: calc(88%/2);
+}
+
+.large {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.caption {
+    font-size: 3vw;
+    margin: 10px 20px 10px 20px;
+}
+
+.pictogram {
+    margin-left: 30%;
+    width: 40%;
+}
+
+.content {
+    font-size: 1.8vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    white-space: pre-line;
+    font-family: quicksand;
+}
+
+.social {
+    height: 10%;
+    margin: 40px;
+}
+
+textarea {
+    border: none;
+    padding: 0px;
+    width: calc(100% - 40px);
+    height: 25vh;
+}
