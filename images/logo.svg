@@ -2,21 +2,19 @@
     <defs>
         <mask id="mask1">
             <rect x="0" y="0" width="120" height="120" fill="white"/>
-            <circle cx="60" cy="60" r="55" fill="black"/>
+            <path d="M5 60 A40 40 0 0 1 115 60" fill="black"/>
         </mask>
 
         <mask id="mask2">
             <rect x="0" y="0" width="120" height="120" fill="white"/>
             <circle cx="60" cy="60" r="35" fill="black"/>
-            <rect x="10" y="61" width="20" height="40" fill="black"/>
+            <rect x="25" y="60" width="5" height="50" fill="black"/>
             <rect x="57.5" y="5" width="5" height="50" fill="black"/>
         </mask>
     </defs>
 
-    <rect x="10" y="10" width="15" height="50" fill="white" mask="url(#mask1)"/>
+    <rect x="10" y="10" width="15" height="100" fill="white" mask="url(#mask1)"/>
 
-    <rect x="10" y="60" width="15" height="50" fill="white" />
-
-    <circle cx="60" cy="60" r="50" fill="white" mask="url(#mask2)" />
+    <circle cx="60" cy="60" r="50" fill="white" mask="url(#mask2)"/>
 
 </svg>
